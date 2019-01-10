@@ -16,8 +16,8 @@ public class Bridge : MonoBehaviour {
         }
 
         lr = GetComponent<LineRenderer>();
-        lr.startWidth = .05f;
-        lr.endWidth = .05f;
+        //lr.startWidth = .05f;
+        //lr.endWidth = .05f;
         cube1Pos = gameObject.transform.GetChild(0).GetComponent<Transform>().position;
         cube2Pos = gameObject.transform.GetChild(1).GetComponent<Transform>().position;
     }
